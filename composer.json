@@ -1,0 +1,35 @@
+{
+    "name": "vs-project-management-system/core",
+    "type": "library",
+    "description": "core components of the project management system.",
+    "keywords": [
+        "project",
+        "core",
+        "menu"
+    ],
+    "homepage": "http://pms.daviddurost.net",
+    "license": "MIT",
+    "authors": [
+        {
+        "name": "David Durost",
+        "homepage": "http://daviddurost.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Pms\\Component\\Core\\": ""
+
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.*-dev"
+        }
+    }
+}
